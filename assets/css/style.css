@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Playfair+Display&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
 body {
     font-family: lato, sans-serif;
 }
@@ -8,9 +14,34 @@ body {
 
 li {
     list-style-type: none;
+
+}
+
+.nav-list-wrapper {
+    position: relative;
 }
 
 #nav-list li {
     float: right;
     margin-right: 30px;
+    
+}
+
+#nav-list a {
+    text-decoration: none;
+}
+
+#nav #logo {
+    margin: 0;
+    padding: 0;
+    float: left;
+    letter-spacing: 4px;
+    font-size: 40px;
+}
+
+/* video */
+
+#main-video {
+    margin-left: 0;
+    float: left;
 }
