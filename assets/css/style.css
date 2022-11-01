@@ -3,3 +3,14 @@
 body {
     font-family: lato, sans-serif;
 }
+
+/* navigation */
+
+li {
+    list-style-type: none;
+}
+
+#nav-list li {
+    float: right;
+    margin-right: 30px;
+}
